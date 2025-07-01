@@ -50,6 +50,7 @@ Desenvolver um simulador em linguagem C que execute operações de **soma e subt
 Prof. Luiz Henrique Neves Rodrigues
 
 ## 👥 Equipe
+- Guilherme Haniel Costa Passinho
 - Jônathas Silva Oliveira
 - José Augusto Santos Lopes
 - Liah Renata Colins da Silva
