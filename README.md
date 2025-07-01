@@ -46,16 +46,6 @@ Desenvolver um simulador em linguagem C que execute operações de **soma e subt
 5. Criação de circuitos equivalentes em simuladores (Logisim/Ripes).
 6. Documentação final e apresentação.
 
-## ⏱ Cronograma
-
-| Etapa                         | Duração Estimada |
-|------------------------------|------------------|
-| Levantamento bibliográfico   | 1 semana         |
-| Metodologia de desenvolvimento | 1 semana       |
-| Execução e testes            | 2 semanas        |
-| Análise de resultados        | 2 semanas        |
-| Redação do relatório         | 1 semana         |
-
 ## 👨‍🏫 Orientador
 Prof. Luiz Henrique Neves Rodrigues
 
