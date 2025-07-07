@@ -1,57 +1,68 @@
-# 💻 Simulador de Operações Aritméticas em Binário
+:
 
+🖥️ Modelagem de ULA com 4 Bits: Da Teoria à Simulação
 Projeto acadêmico desenvolvido para a disciplina de Arquitetura de Computadores – UFMA.
 
-## 🧠 Objetivo Geral
+🧠 Objetivo Geral
+Desenvolver e simular uma Unidade Lógica e Aritmética (ULA) de 4 bits utilizando a ferramenta Logisim Evolution, com o propósito de compreender, na prática, o funcionamento de circuitos lógicos combinacionais aplicados à execução de operações aritméticas e lógicas em nível de hardware.
 
-Desenvolver um simulador em linguagem C que execute operações de **soma e subtração** entre números binários (em complemento de dois), com **detecção de overflow**, integrando **tecnologias de ponta** na área de simulação computacional.
+🎯 Objetivos Específicos
+Compreender os fundamentos teóricos da ULA e sua função na arquitetura de processadores.
 
-## 🎯 Objetivos Específicos
+Implementar operações aritméticas (soma e subtração) com uso de complemento de dois.
 
-- Aplicar o conceito de complemento de dois para números negativos.
-- Converter números decimais (positivos e negativos) em binário.
-- Simular soma e subtração binária com tratamento de overflow.
-- Criar uma interface simples (linha de comando).
-- Integrar tecnologias modernas como:
-  - Logisim Evolution
-  - Ripes
-  - ModelSim
-  - FPGAs (com HDL)
-- Documentar e apresentar resultados com exemplos.
+Implementar operações lógicas (AND, OR, XOR e NOT) com portas lógicas básicas.
 
-## 📌 Escopo do Simulador
+Simular o circuito completo da ULA utilizando o Logisim Evolution.
 
-**Entradas**:
-- Números inteiros decimais (positivos ou negativos).
+Verificar o comportamento do multiplexador (MUX) na seleção das operações.
 
-**Saídas**:
-- Representação binária (em complemento de dois).
-- Resultado das operações (em binário e decimal).
-- Notificação de overflow (se ocorrer).
+Analisar os resultados da simulação e validar os casos de teste.
 
-## 🚀 Tecnologias Utilizadas
+Relacionar os conceitos simulados à estrutura interna real de uma CPU.
 
-- **Linguagem C** – Implementação do simulador.
-- **Logisim Evolution** – Simulação gráfica de circuitos lógicos e ULAs.
-- **Ripes** – Visualização de execução de instruções em CPUs.
-- **ModelSim** – Simulação de circuitos em VHDL/Verilog.
-- **FPGAs** – Teste físico de circuitos digitais e ULAs personalizadas.
+📌 Escopo da Simulação
+Entradas:
 
-## 🔍 Etapas do Projeto
+Dois operandos de 4 bits (A e B)
 
-1. Levantamento teórico sobre representação binária e complemento de dois.
-2. Estudo prático sobre tecnologias de simulação (Logisim, Ripes, etc.).
-3. Implementação do simulador em linguagem C.
-4. Validação com testes variados, incluindo casos com overflow.
-5. Criação de circuitos equivalentes em simuladores (Logisim/Ripes).
-6. Documentação final e apresentação.
+Sinais de controle para seleção da operação
 
-## 👨‍🏫 Orientador
+Operações Implementadas:
+
+Soma e Subtração (com complemento de dois e carry-in)
+
+AND, OR, XOR e NOT (bit a bit)
+
+Saídas:
+
+Barramento de 4 bits (Y3 a Y0) exibindo o resultado da operação selecionada
+
+🚀 Tecnologia Utilizada
+Logisim Evolution – Simulador digital para modelagem e teste de circuitos lógicos
+(Outras tecnologias como linguagem C, Ripes, ModelSim e FPGAs foram consideradas inicialmente, mas optamos por focar exclusivamente no Logisim para aprofundar a simulação digital combinacional da ULA.)
+
+🔍 Etapas do Projeto
+Estudo teórico sobre a ULA, portas lógicas e complemento de dois
+
+Definição da arquitetura de uma ULA de 4 bits (entradas, saídas e controle)
+
+Implementação dos blocos de operações aritméticas e lógicas no Logisim
+
+Criação do sistema de controle com multiplexadores 4:1
+
+Validação das operações com casos de teste práticos
+
+Documentação do processo e preparação para apresentação e demonstração em tempo real
+
+👨‍🏫 Orientador
 Prof. Luiz Henrique Neves Rodrigues
 
-## 👥 Equipe
-- Guilherme Haniel Costa Passinho
-- Jônathas Silva Oliveira
-- José Augusto Santos Lopes
-- Liah Renata Colins da Silva
-- Wanderson Campos Soares
+👥 Equipe
+Guilherme Haniel Costa Passinho
+Jônathas Silva Oliveira
+José Augusto Santos Lopes
+Liah Renata Colins da Silva
+Wanderson Campos Soares
+
+
