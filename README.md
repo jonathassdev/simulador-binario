@@ -1,5 +1,3 @@
-:
-
 🖥️ Modelagem de ULA com 4 Bits: Da Teoria à Simulação
 Projeto acadêmico desenvolvido para a disciplina de Arquitetura de Computadores – UFMA.
 
